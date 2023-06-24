@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   constructor(private router: Router) {}
-  title = 'tecknotrove';
+  title = 'Login';
 
   ngOnInit(): void {
     const userId = localStorage.getItem('userId');

@@ -13,7 +13,7 @@ Instructions to run project:
 
 Step 1: Import the company_user.sql from database folder into your MySQL work bench
 
-Step 2: Please run npm install in tecknotrove/front-end 
+Step 2: Please run npm install in login 
 Step 3: Run command ng serve to start front-end server
 
 Step 4: Please run npm install in back-end
