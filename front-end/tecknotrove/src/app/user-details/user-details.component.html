@@ -1,0 +1,26 @@
+<div class="container mt-4">
+  <h1>Welcome to Technotrove</h1>
+  <button class="btn btn-danger" style="float: right;" (click)="logout()">Logout</button>
+  <h2 class="title-case">Welcome {{name }}, </h2>
+  <p><strong>Your Username is:</strong> {{ username }}</p>
+</div>
+
+<div class="container">
+  <h2>Other User Details</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Username</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userDetails">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.username }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
